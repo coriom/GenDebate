@@ -8,10 +8,6 @@ This script generates multi-person debates about the **“Ne Zha” (2019)** tra
 - An OpenAI API key
 - Python package:
 
-```bash
-pip install --upgrade openai
-
-
 
 # Configuration guide – How to customize the debate generator
 
@@ -25,7 +21,7 @@ All configuration is done through a few **constants at the top of the file** and
 
 At the top of the script, you’ll find:
 
-```python
+python
 OPENAI_API_KEY = ""
 MODEL          = "gpt-4o-mini"
 TARGET_TURNS   = 20
@@ -40,3 +36,10 @@ ANALYSIS_MODEL   = "gpt-4o-mini"
 ANALYSIS_MAXTOK  = 2000
 ANALYSIS_OUTFILE = Path("ANALYSES/analysis_last_session.md")
 APPEND_ANALYSIS_IN_DEBATE = True
+
+
+
+```bash
+pip install --upgrade openai
+
+

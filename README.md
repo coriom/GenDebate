@@ -9,6 +9,8 @@ This script generates multi-person debates about the **“Ne Zha” (2019)** tra
 - Python package:
 
 
+
+
 # Configuration guide – How to customize the debate generator
 
 This document explains how **anyone** can customize the script `Chat_gen_API_OPENIA.py` without touching the core logic.
@@ -37,7 +39,7 @@ ANALYSIS_MAXTOK  = 2000
 ANALYSIS_OUTFILE = Path("ANALYSES/analysis_last_session.md")
 APPEND_ANALYSIS_IN_DEBATE = True
 
-
+# You need API key here : https://platform.openai.com/api-keys
 
 ```bash
 pip install --upgrade openai

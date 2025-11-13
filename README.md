@@ -39,7 +39,7 @@ ANALYSIS_MAXTOK  = 2000
 ANALYSIS_OUTFILE = Path("ANALYSES/analysis_last_session.md")
 APPEND_ANALYSIS_IN_DEBATE = True
 
-# You need API key here : https://platform.openai.com/api-keys
+## You need API key here : https://platform.openai.com/api-keys
 
 ```bash
 pip install --upgrade openai
